@@ -9,20 +9,9 @@ chatgptに質問をしてみて回答を得るアプリになります。
 ### 初期設定
 
 ```bash
-python3 -m venv venv
-. venv/bin/activate
-pip3 list
-python3 -m pip install --upgrade pip
-pip3 list
-pip3 freeze > requirements.txt
-
-各種Pythonプログラム実施
-
-```
-
-### 別環境で利用する際の操作
-
-```bash
+git clone https://github.com/naritomo08/chatgpt_app.git
+cd chatgpt_app.git
+rm -rf .git
 python3 -m venv venv
 . venv/bin/activate
 pip3 list
@@ -67,7 +56,7 @@ ChatGPT APIの入手
 以下のコマンドでプログラムを動かす
 
 ```bash
-cp varidate_des.py varidate.py
+cp varidate_ref.py varidate.py
 vi varidate.py
 
 以下の””の中にAPIキーを入力する。
