@@ -57,7 +57,7 @@ ChatGPT APIの入手
 以下のコマンドでプログラムを動かす
 
 ```bash
-cp variable_ref.py variablepy
+cp variable_ref.py variable.py
 vi variable.py
 
 以下の””の中にAPIキーを入力する。
