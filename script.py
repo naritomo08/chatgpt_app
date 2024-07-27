@@ -1,6 +1,6 @@
 import openai
 import sys
-import varidate as v
+import variable as v
 
 # OpenAIのAPIキーを設定
 openai.api_key = v.api_key
