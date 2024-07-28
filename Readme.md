@@ -4,8 +4,11 @@ chatgptに質問をしてみて回答を得るアプリになります。
 
 ## Pythonプログラム稼働環境構築
 
-あらかじめpythonインストールを実施していること。
 本プログラムはmac/Linuxで動かしてください。
+
+ChatGPT API keyも以下のページからあらかじめ入手してください。
+
+https://platform.openai.com/playground/
 
 ### 初期設定
 
