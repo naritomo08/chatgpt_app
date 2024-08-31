@@ -8,7 +8,7 @@ openai.api_key = v.api_key
 def ask_chatgpt(question):
     try:
         # ChatGPTに質問を送り、回答を得る
-        response = openai.ChatCompletion.create(
+        response = openai.chat.completions.create(
             model="gpt-4",  # 使用するモデルを指定
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
@@ -17,7 +17,7 @@ def ask_chatgpt(question):
         )
 
         # 回答を取得
-        answer = response.choices[0].message['content']
+        answer = response.choices[0].message.content
         return answer
 
     except Exception as e:
