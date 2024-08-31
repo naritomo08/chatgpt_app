@@ -9,7 +9,7 @@ def ask_chatgpt(question):
     try:
         # ChatGPTに質問を送り、回答を得る
         response = openai.chat.completions.create(
-            model="gpt-4",  # 使用するモデルを指定
+            model="gpt-4o-mini",  # 使用するモデルを指定
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": question}
