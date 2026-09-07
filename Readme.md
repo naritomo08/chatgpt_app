@@ -83,3 +83,7 @@ python3 script.py "質問内容"
 Web画面で質問・回答が出てくる形にしたい。
 Docker上で動かすようにして、K8S上でも稼働するようにしたい。
 ```
+
+## 関連Qiita記事
+
+- [1時間という爆速でchatgpt応答pythonプログラム作ってみた。](https://qiita.com/naritomo08/items/155bc27972b3d045c085)
